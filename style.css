@@ -1,0 +1,203 @@
+*{margin: 0;padding: 0;outline: 0}
+body{font-family: Geneva; margin:0 auto;width: 960px;background: url(images/bg3.jpg)repeat fixed 0 0;line-height: 25px;color: #fff;font-size: 20px;position: relative}
+.clear{overflow: hidden}
+input[type="text"], input[type="email"] {
+  padding: 4px;
+  margin: 5px;
+  width: 230px;
+  border-radius: 4px;
+}
+textarea {
+  margin: 5px;
+  padding: 4px;
+  width: 232px;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background: #9ac136 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+  padding: 3px 15px;
+}
+input[type="submit"]:hover{color: #d3d36d;background:#7BA200}
+.header {
+  background: #7ba200 none repeat scroll 0 0;
+  font-size: 30px;
+  text-align: center;
+}
+.logo {
+  float: left;
+  width: 360px;
+  text-align: justify;
+}
+.logo img {
+  border-radius: 16px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 90px;
+}
+.logo h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: #B9CFFE;
+ text-shadow: 4px 4px 0 #666;
+}
+.logo p {
+  color: #d9effe;
+  font-size: 25px;
+}
+.social {
+  float: right;
+  width: 255px;
+}
+.social img {
+  border-radius: 15px;
+  margin-top: 7px;
+  padding: 3px;
+  width: 50px;
+}
+.menu {
+  background: #9ac136 none repeat scroll 0 0;
+  height: 35px;
+}
+.menu ul{list-style: none}
+.menu ul li{}
+.menu ul li a {color: #325907;
+  float: left;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.menu ul li a:hover{color: #d3d36d;background:#7BA200}
+.slider {
+  margin-bottom: 10px;
+  box-shadow: 0px 8px 3px -2px #ddd;
+}
+.content {
+  margin-bottom: 10px;
+  margin-top:0;
+}
+.maincontent {background: #7ba200 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  padding: 1px 15px 15px 5px;
+  width: 600px;
+}
+.samepost {
+  margin-bottom: 35px;
+}
+.samepost h3, .about h3, .posttitle h3{
+  border-bottom: 1px solid;
+  font-size: 25px;
+  margin-bottom: 6px;
+  padding: 2px;
+}
+.samepost img {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.maincontent p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.readmore {display: block;
+  float: right;
+  background: #9DC042;
+  padding: 2px 12px;
+  border: 1px solid #fff;
+  border-radius: 1pc;
+}
+.readmore a {
+  text-decoration: none;
+  color: #527900;
+}
+.readmore:hover {background: #7BA200;}
+.readmore a:hover {color: #d3d36d}
+.about{}
+.about img {
+  background: #333 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  height: 100px;
+  width: 150px;
+}
+.about p{}
+.sidebar {background: #7ba200 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  float: right;
+  padding: 6px;
+  width: 300px;
+}
+.gallery{}
+.gallery h3 {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.gallery img {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 168px;
+}
+.sidebar h2 {
+  background: #9ac136 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  color: #4b7201;
+  font-size: 25px;
+  padding: 5px;
+  text-align: center;
+}
+.sidebar ul{}
+.sidebar ul li{}
+.sidebar ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 3px;
+  text-decoration: none;
+}
+.sidebar ul li a:hover{color: #d3d36d;background:#7BA200}
+.footer {
+  background: #7BA200 none repeat scroll 0 0;
+  height: 75px;
+  text-align: center;
+  font-size: 20px;
+}
+.footermenu{}
+.footermenu ul {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.footermenu ul li{display: inline-block}
+.footermenu ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #BDE459;
+}
+.footer p{}
+.fixedicon {
+  left: 0;
+  position: fixed;
+  top: 150px;
+  width: 60px;
+}
+.fixedicon img {
+  padding: 5px;
+  width: 50px;
+  border-radius: 23px;
+}
